@@ -18,10 +18,18 @@ En pratique : cela signifie qu'actuellement il est plus efficient d'augmenter la
 ## 4 <u>Quantum-Enhanced Capture of Photons Using Optical Ratchet States</u>
 *source : The Journal of Physical Chemistry*
 ___
-## Dispositif
-Un Mecanisme opto-mécanique peut détécter de façon non destructive les signaux d'une large gamme de fréquences.
-Dans notre modèle l'espion peut lire des estimations de consommation d'énergie RAPL (Running Average Power Limit) sur les domaines PP0 (consomation des coeurs) PP1 (consomation des composants graphiques = GPU) et DRAM (Dynamic random-access memory). Sous linux, l'spion peut utiliser le module "powercap" pour lire la consommation d'énergie fournie par les registres RAPL. (Ceci ne nécessite aucune permission privilégiée)
-Dans un premier temps le dispositif effectue une phase de lecture de consommation. Puis le processeur quantique décode les données analisées. L'attaque est possiblement multi-thread, ne communique jamais explicitement son activité et n'a jamais besoin d'acceder au réseau.
+### 4.1. Le Dispositif
+> Un Mecanisme opto-mécanique peut détécter de façon non destructive les signaux d'une large gamme de fréquences.
+
+Dans notre modèle l'espion peut lire des estimations de consommation d'énergie RAPL (Running Average Power Limit) sur les domaines PP0 (consomation des coeurs) PP1 (consomation des composants graphiques = GPU) et DRAM (Dynamic random-access memory). 
+> Sous linux, l'éspion peut utiliser le module "powercap" pour lire la consommation d'énergie fournie par les registres RAPL. (NB: Ceci ne nécessite aucune permission privilégiée)
+
+### 4.2. Fonctionnement
+- Dans une première phase le dispositif effectue une de lecture de consommation matérielle de tous les composants.
+
+- Dans la seconde phase de l'attaque la puissance du processeur quantique permet d'interpréter l'enregistrement pour le retransformer en données. 
+
+> L'attaque est possiblement **multi-thread**, ne **communique jamais explicitement** son activité et n'a **jamais besoin d'acceder au réseau.**
 
 <!-- ![Steady-state exciton population](https://pubs.acs.org/na101/home/literatum/publisher/achs/journals/content/jpccck/2017/jpccck.2017.121.issue-38/acs.jpcc.7b07138/20171002/images/medium/jp-2017-07138c_0003.gif) -->
 
