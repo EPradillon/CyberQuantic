@@ -19,7 +19,16 @@ En pratique : cela signifie qu'actuellement il est plus efficient d'augmenter la
 *source : The Journal of Physical Chemistry*
 ___
 ### 4.1. Le Dispositif
+Pour améliorer la consommation d'energie du matériel, les fabricants informatiques ont développés des outils modernes de monitoring. Cette capacité à mesurer les flux energétiques d'une machine introduit une nouvelle faille dans le domaine de la sécurité informatique nommée :"Covert Channels"
+
+> https://en.wikipedia.org/wiki/Covert_channel
+
+Notre attaque s'inspire de cette ouverture. L'objectif est de créer un canal de communication illicite et unidirectionnel entre un espion et une machine cible.
+
+Notre espion est équipé d'un objectif de capture quantique renforcée de photons.
 > Un Mecanisme opto-mécanique peut détécter de façon non destructive les signaux d'une large gamme de fréquences.
+> 
+Il est doté de la capacité de mesurer sans émettre.
 
 Dans notre modèle l'espion peut lire des estimations de consommation d'énergie RAPL (Running Average Power Limit) sur les domaines PP0 (consomation des coeurs) PP1 (consomation des composants graphiques = GPU) et DRAM (Dynamic random-access memory). 
 > Sous linux, l'éspion peut utiliser le module "powercap" pour lire la consommation d'énergie fournie par les registres RAPL. (NB: Ceci ne nécessite aucune permission privilégiée)
