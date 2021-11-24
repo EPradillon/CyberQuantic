@@ -1,21 +1,22 @@
 # R&D Projet N2 - Photon-Scan: 
 
-## <u>1. Les acteurs :</u>
+## Quantic
+### <u>1. Les acteurs :</u>
 **IMB** vs **GOOGLE** vs **CHINE**
 
 Leader : IBM avec le nouveau **127-qubit Eagle**
 
-## <u>2. "La suprémacie quantique"</u>
+### <u>2. "La suprémacie quantique"</u>
 Nom donné au point à partir duquel les ordinateurs quantiques peuvent résoudre un problème qu'un ordinateur classique jugerait impossible.
 
-## <u>3. Le Qubit</u>
+### <u>3. Le Qubit</u>
 Chaque Qubit suplémentaire represente un avancée significative en Puissance.
 
 >Contrairement à l'augmentation linéraire des ordinateurs classiques chaque nouveau Qubit double la puissance effective d'un processeur quantique
 
 En pratique : cela signifie qu'actuellement il est plus efficient d'augmenter la puissance d'un processeur que d'en créer un second et cela jusqu'au seuil d'expansion thérorique du millier de Qubit. A partir de ce point un reseau optique de processeurs sera le nouveau chemin pour continuer d'améliorer la puissance de calcul.
 
-## 4 <u>Quantum-Enhanced Capture of Photons Using Optical Ratchet States</u>
+### 4 <u>Quantum-Enhanced Capture of Photons Using Optical Ratchet States</u>
 *source : The Journal of Physical Chemistry*
 ___
 ### 4.1. Le Dispositif
